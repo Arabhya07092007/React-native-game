@@ -5,7 +5,9 @@ function setup() {
 function draw() {
   background(255);
   let display = touches.length + " touches";
+
   text(display, windowWidth / 2, windowHeight / 2);
+  textSize(26);
 }
 
 // echo "# React-native-game" >> README.md
