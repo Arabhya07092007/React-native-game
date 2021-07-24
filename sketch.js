@@ -6,7 +6,11 @@ function draw() {
   background(255);
   let display = touches.length + " touches";
 
-  text(display, windowWidth / 2, windowHeight / 2);
+  text(
+    display + touches[0] + " heres your text",
+    windowWidth / 2,
+    windowHeight / 2
+  );
   textSize(26);
 }
 
